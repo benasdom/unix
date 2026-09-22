@@ -117,6 +117,7 @@
     position:sticky;top:0;z-index:500;
     background:color-mix(in srgb, var(--bg) 82%, transparent);
     backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);
     transition:background .5s ease,border-color .5s ease;
   }
@@ -329,7 +330,7 @@
 <div class="cursor-ring"></div>
 
 <!-- ============ NAV ============ -->
-<header class="site-nav" background="white">
+<header class="site-nav">
   <div class="nav-row">
     <a href="#home" class="brand">
       <span class="brand-mark">
